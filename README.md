@@ -32,4 +32,11 @@ then update grub:
 sudo update-grub
 ```
 
-Finally reboot, the sound should be largely improved.
+Finally reboot, the sound should be improved moderately. 
+
+To further improve the audio quality:
+
+```
+sudo apt install pulseeffects
+```
+Run PulseEffect from applications list, download MusicX1-Laptop.json and MusicX1-Headphones.json from above, then import and apply into PulseEffect.
